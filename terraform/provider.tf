@@ -9,5 +9,5 @@ terraform {
 
 provider "kubernetes" {
   config_path = "/data/kubeconfig"
-  context = "colima"
+  config_context = "colima"
 }
